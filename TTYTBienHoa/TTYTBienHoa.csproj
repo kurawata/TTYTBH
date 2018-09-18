@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TTYT.Application\TTYT.Application.csproj" />
+    <ProjectReference Include="..\TTYT.Data.EF\TTYT.Data.EF.csproj" />
+    <ProjectReference Include="..\TTYT.Data\TTYT.Data.csproj" />
+    <ProjectReference Include="..\TTYT.infrastructure\TTYT.infrastructure.csproj" />
+    <ProjectReference Include="..\TTYT.Utilities\TTYT.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

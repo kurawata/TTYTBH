@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Confirgurations\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TTYT.Data\TTYT.Data.csproj" />
+    <ProjectReference Include="..\TTYT.infrastructure\TTYT.infrastructure.csproj" />
+    <ProjectReference Include="..\TTYT.Utilities\TTYT.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
